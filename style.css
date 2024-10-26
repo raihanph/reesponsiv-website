@@ -325,8 +325,74 @@ header{
    color: beige;
   }
 
+ /* contact section code start */
 
+    
+  
+        #contact-section {
+          background-image: linear-gradient(#57a2d458, #4c606d27), url('/images/tiger.jpg');
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          padding: 100px 0;
+         
+        }
 
+   form{
+    max-width: 50%;
+    margin: 0 auto;
+    background-color:#032b45eb;
+    border: 6px solid #3ea9f0;
+    border-radius: 10px;
+    padding: 50px 60px;
+   }
+     form h3{
+      font-size: 35px;
+      text-align: center;
+      letter-spacing: 0.2rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: white;
+     }
+    form p{
+      letter-spacing: 0.1rem;
+      margin: 30px 0;
+      letter-spacing: 0.1rem;
+      text-align: center;
+      color: white;
+      font-size: 18px;
+    }
+     .input-form{
+    display: block;
+    width: 100%;
+    height: 40px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #278bce;
+    margin: 40PX 0;
+    outline: none;
+    color: white;
+    font-size: 20PX;
+   }
+   .input-form::placeholder{
+    color: #278bce;
+   }
+   .submit-btn{
+    display: block;
+    cursor: pointer;
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    outline-style: ridge;
+    transition: 0.5s;
+    margin: 0 auto;
+    background: none;
+    color: white;
+   }
+  .submit-btn:hover{
+    background-color: #278bce;
+    color: white;
+  }
 
   
 
@@ -376,6 +442,17 @@ header{
         
         }
          /* advice code end */
+
+
+         /* contact section start */
+     form {
+      max-width: 90%;
+       background-color: #032b45eb;
+       padding: 20px 30px;
+
+       }
+
+         
          
  }
 
@@ -424,4 +501,14 @@ header{
               margin-right: 70px;
     
           }
+
+      /* contact section start */
+
+      form {
+           max-width: 90%;
+            background-color: #032b45eb;
+           padding: 40px 50px;
+
+            }
+
  }
